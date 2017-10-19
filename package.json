@@ -1,5 +1,5 @@
 {
-  "name": "cross-spawn",
+  "name": "@cspotcode/cross-spawn",
   "version": "5.1.0",
   "description": "Cross platform child_process#spawn and child_process#spawnSync",
   "main": "index.js",
@@ -8,11 +8,11 @@
     "lint": "eslint '{*.js,lib/**/*.js,test/**/*.js}'"
   },
   "bugs": {
-    "url": "https://github.com/IndigoUnited/node-cross-spawn/issues/"
+    "url": "https://github.com/cspotcode/node-cross-spawn/issues/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/IndigoUnited/node-cross-spawn.git"
+    "url": "git://github.com/cspotcode/node-cross-spawn.git"
   },
   "files": [
     "index.js",
@@ -34,6 +34,9 @@
     "execute"
   ],
   "author": "IndigoUnited <hello@indigounited.com> (http://indigounited.com)",
+  "contributors": [
+    "Andrew Bradley <cspotcode@gmail.com> (https://cspotcode.com)"
+  ],
   "license": "MIT",
   "dependencies": {
     "lru-cache": "^4.0.1",
