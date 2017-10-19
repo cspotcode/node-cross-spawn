@@ -560,6 +560,7 @@ extension\');', { mode: parseInt('0777', 8) });
                     });
                 } else {
                     it('should NOT spawn a shell for a .exe', function (next) {
+                        this.timeout(4000);
                         buffered(method, __dirname + '/fixtures/win-ppid.js', function (err, data, code) {
                             expect(err).to.not.be.ok();
                             expect(code).to.be(0);
