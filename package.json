@@ -1,6 +1,6 @@
 {
   "name": "@cspotcode/cross-spawn",
-  "version": "5.1.0",
+  "version": "5.1.1-fork",
   "description": "Cross platform child_process#spawn and child_process#spawnSync",
   "main": "index.js",
   "scripts": {
